@@ -1,0 +1,125 @@
+# [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=flat-square)
+
+**Topic Tags:** `String` `Stack` `Bracket Sequences`
+
+---
+
+## Problem Statement
+
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+
+
+An input string is valid if:
+
+
+
+
+
+	- Open brackets must be closed by the same type of brackets.
+
+	- Open brackets must be closed in the correct order.
+
+	- Every close bracket has a corresponding open bracket of the same type.
+
+
+
+
+ 
+
+
+Example 1:
+
+
+
+
+**Input:** s = "()"
+
+
+
+**Output:** true
+
+
+
+
+Example 2:
+
+
+
+
+**Input:** s = "()[]{}"
+
+
+
+**Output:** true
+
+
+
+
+Example 3:
+
+
+
+
+**Input:** s = "(]"
+
+
+
+**Output:** false
+
+
+
+
+Example 4:
+
+
+
+
+**Input:** s = "([])"
+
+
+
+**Output:** true
+
+
+
+
+Example 5:
+
+
+
+
+**Input:** s = "([)]"
+
+
+
+**Output:** false
+
+
+
+
+ 
+
+
+**Constraints:**
+
+
+
+
+
+	- `1 <= s.length <= 10^4`
+
+	- `s` consists of parentheses only `'()[]{}'`.
+
+---
+
+## Solution Details
+
+- **Language:** Java
+- **Runtime:** 2 ms
+- **Memory:** 41.9 MB
+- **Submission Date:** 2025-03-21
+
+[View Solution Source](Solution.java)
